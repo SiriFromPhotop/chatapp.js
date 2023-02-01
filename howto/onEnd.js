@@ -1,4 +1,4 @@
-import { Client, localConfig, colors } from './chatapp.js'
+import { Client, localConfig, colors } from 'chatapp.js'
 
 let bot = new Client({
   name: "BotName",
