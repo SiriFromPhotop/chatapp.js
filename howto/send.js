@@ -1,4 +1,4 @@
-import { Client, localConfig, colors } from './chatapp.js'
+import { Client, localConfig, colors } from 'chatapp.js'
 
 let bot = new Client({
   name: "BotName",
@@ -7,6 +7,4 @@ let bot = new Client({
   color: 1 //choose a number 1 - 13 for the color
 });
 
-bot.onReady(function() {
-  //put code here
-})
+bot.send("string goes here")
