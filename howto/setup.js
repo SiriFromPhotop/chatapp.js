@@ -1,7 +1,8 @@
-import { Client, localConfig } from 'chatappjs'
+import { Client, localConfig, colors } from 'chatapp.js'
 
 let bot = new Client({
   name: "BotName",
   websocket: "wss://chatappbackend.sirifromphotop.repl.co (or any websocket server)",
-  apikey: "ApiKey"
+  apikey: "ApiKey",
+  color: 1 //choose a number 1 - 32 for the color
 });
